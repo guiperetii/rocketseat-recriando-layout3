@@ -1,0 +1,191 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #EFEFEF;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 456px;
+  position: absolute;
+  display: block;
+  top: 0;
+  background: #535971;
+  z-index: -1;
+}
+
+.page {
+  height: 1080px;
+  width: 750px;
+  margin: 140px auto;
+}
+
+header {
+  width: 420px;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+
+header p {
+color: #FFF;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 60px;
+}
+
+form {
+  background: #fff;
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+fieldset {
+  border: none;
+  min-width: 622px;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset legend{
+  color: #535971;
+  font-family: 'Staatliches', cursive;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  color: #4E4958;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper input {
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  width: 622px;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #838383;
+}
+
+form span {
+  color: #C1BCCC;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+form span:hover {
+  color: #77757a;
+}
+
+form h3 {
+  color: #535971;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+
+#name,
+#last-name,
+#first-mentoring-day,
+#second-mentoring-day {
+  width: 300px;
+}
+
+#first-mentoring-start,
+#first-mentoring-end,
+#second-mentoring-start,
+#second-mentoring-end {
+  width: 140px;
+}
+
+.first-available-day,
+.second-available-day {
+  display: flex;
+}
+
+#first-mentoring-day,
+#second-mentoring-day {
+  margin-right: 32px ;
+}
+
+#first-mentoring-start,
+#second-mentoring-start {
+  margin-right: 10px;
+}
+
+footer {
+  padding: 60px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  height: 180px;
+}
+
+#save-form {
+  display: flex;
+  width: 608px;
+  height: 70px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #FF5374;
+  color: #bdbdbd;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  border: none;
+  cursor: pointer;
+}
+
+#save-form:hover {
+  background: #c53c57;
+  color: #FFF
+}
